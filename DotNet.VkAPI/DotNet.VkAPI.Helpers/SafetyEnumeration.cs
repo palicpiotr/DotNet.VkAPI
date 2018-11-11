@@ -17,7 +17,7 @@ namespace DotNet.VkAPI.Helpers
         private static T ActivateInstance(string response)
         {
             var r = new T { _value = response };
-            Activator.CreateInstance(new T { _value = response }.GetType());
+            Activator.CreateInstance(r.GetType());
             return r;
         }
 
