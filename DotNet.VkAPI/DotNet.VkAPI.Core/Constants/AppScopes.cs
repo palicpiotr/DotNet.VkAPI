@@ -1,5 +1,5 @@
 ﻿
-namespace DotNet.VkAPI.Common.Constants
+namespace DotNet.VkAPI.Core.Constants
 {
     public static class AppScopes
     {

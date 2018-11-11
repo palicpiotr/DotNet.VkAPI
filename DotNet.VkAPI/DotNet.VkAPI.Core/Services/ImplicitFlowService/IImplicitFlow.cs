@@ -6,5 +6,6 @@ namespace DotNet.VkAPI.Core.Services.ImplicitFlowService
 {
     public interface IImplicitFlow
     {
+        Uri BuildAuthUrl(int appId, int scope);
     }
 }
